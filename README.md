@@ -1,4 +1,5 @@
 # bin
+A set of self-making commands.
 
 ## How to setup
 1. Cloning this repository and run the setup script
@@ -16,9 +17,9 @@ $ source dotfiles/bash/bin.bash
 ```
 
 ### Recommendation
-`source` command above should be written in bashrc so `bin.bash` will be loaded as you log in a shell.
+`source` command above should be written in `~/.bashrc` so `bin.bash` will be loaded as you log in a shell.
 
-Add the following to `bashrc`
+Add the following to `~/.bashrc`
 
 ```sh
 if [ -e path/to/bin.bash ]; then
@@ -26,4 +27,4 @@ if [ -e path/to/bin.bash ]; then
 fi
 ```
 
-**TIPS:** If you use my [dotfiles](https://github.com/noraworld/dotfiles), the second step and the recommendation step can be done automatically, so you don't need to do manually :)
+**Tips:** If you use my [dotfiles](https://github.com/noraworld/dotfiles), the second step and the recommendation step can be done automatically, so you don't need to do manually :)
