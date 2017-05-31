@@ -1,11 +1,12 @@
 # bin
-A set of self-making commands.
+A set of the self-making commands.
 
 ## How to setup
 1. Cloning this repository and run the setup script
 
 ```sh
-$ cd path/to/bin
+$ git clone https://github.com/noraworld/bin
+$ cd bin
 $ sh setup.sh
 ```
 
