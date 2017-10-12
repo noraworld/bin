@@ -24,7 +24,8 @@ $ sudo visudo
 ```
 
 ```diff
-# Add `/home/username/.bin` path to the end of line of `secure_path`. Replace `username` with your own username.
+# Add `/home/username/.bin` path to the end of line of `secure_path`.
+# Replace `username` with your own username.
 - Defaults    secure_path = /usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 + Defaults    secure_path = /usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/home/username/.bin
 ```
