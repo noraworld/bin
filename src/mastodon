@@ -1,0 +1,10 @@
+#!/bin/sh
+
+case "$1" in
+  "start"  ) systemctl start  postgresql-9.6 redis mastodon-web mastodon-sidekiq mastodon-streaming ;;
+  "stop"   ) systemctl stop   postgresql-9.6 redis mastodon-web mastodon-sidekiq mastodon-streaming ;;
+  "status" ) systemctl status postgresql-9.6 redis mastodon-web mastodon-sidekiq mastodon-streaming ;;
+  *        ) echo "Wrong command: \`$1\`"
+esac
+
+exit 0
