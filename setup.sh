@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # raise error if this script is not executed in this directory
 if [ ${0} != "setup.sh" ]; then
