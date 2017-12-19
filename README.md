@@ -42,3 +42,6 @@ fi
 ```
 
 **Tips:** If you use my [dotfiles](https://github.com/noraworld/dotfiles), the second step and the recommendation step can be done automatically, so you don't need to do manually :)
+
+## Other
+If you want to install additional command line tools like `peco` from other projects, you can put them to `src/local`.
