@@ -30,18 +30,5 @@ $ sudo visudo
 + Defaults    secure_path = /usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/home/username/.bin
 ```
 
-### Recommendation
-`source` command above should be written in `~/.bashrc` so `bin.bash` will be loaded as you log in a shell.
-
-Add the following to `~/.bashrc`
-
-```sh
-if [ -e path/to/bin.bash ]; then
-  . path/to/bin.bash
-fi
-```
-
-**Tips:** If you use my [dotfiles](https://github.com/noraworld/dotfiles), the second step and the recommendation step can be done automatically, so you don't need to do manually :)
-
 ## Other
 If you want to install additional command line tools like `peco` from other projects, you can put them to `src/local`.
