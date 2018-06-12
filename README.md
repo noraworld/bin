@@ -7,7 +7,7 @@ A set of the self-making commands.
 ```sh
 $ git clone https://github.com/noraworld/bin
 $ cd bin
-$ sh setup.sh
+$ bash setup.sh
 ```
 
 2. Download a path setup script and run it
