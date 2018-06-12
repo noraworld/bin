@@ -3,7 +3,7 @@
 for FILE in "$@"
 do
   if [ -L ${FILE} ]; then
-    unlink ${FILE}
+    command unlink ${FILE}
   else
     echo -e "ERROR: ${FILE} is not a symbolic link" >&2
   fi
