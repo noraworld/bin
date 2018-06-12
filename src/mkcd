@@ -4,5 +4,3 @@ mkdir $1
 if [[ -d $1 ]]; then
   cd $1
 fi
-
-exec /bin/bash
